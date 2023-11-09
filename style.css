@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* section {
+  margin-top: 15px;
+} */
+.container {
+  width: 1180px;
+  margin: 0 auto;
+  
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  background-color: aquamarine;
+  padding: 10px;
+  font-size: 19px;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: blue;
+    color: aqua;
+    font-size: 20px;
+
+}
+button:hover{
+    background-color:aquamarine ;
+    color: blue;
+    transition: 0.5s;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    justify-content: flex-start;
+}
